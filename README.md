@@ -1,13 +1,29 @@
-# engTeach
+# 英语学习软件前端
 
-# 软件杯英语学习软件前端
+## 目录结构
+```plaintext
+engTeach/
+├─ index.html
+├─ package.json
+├─ vite.config.js
+├─ public/        # 静态资源：书本内容、音频
+├─ src/
+│  ├─ assets/     # 图片、音频
+│  ├─ components/ # Vue 组件
+│  └─ views/      # 页面
+└─ README.md
+```
 
-## 单字书的索引格式在/public，单字书内容的格式在/public/book
+## 启动步骤
+```bash
+# 1. 安装依赖
+npm install
 
-## assets 存放一些如图片、音频等文件
+# 2. 启动开发服务器
+npm run dev
 
-## components是vue的组件类，用户放置其他vue会经常使用到的组件
-
-## views里面是每个页面的内容，按照用图分文件夹名
+# 3. 打包发布（上线用）
+npm run build
+```
 
 
